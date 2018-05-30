@@ -28,4 +28,5 @@ RUN chmod +x kops-linux-amd64
 RUN mv kops-linux-amd64 /usr/local/bin/kops
 RUN mkdir /kops-aws
 RUN mkdir ~/.ssh
+RUN mkdir ~/.kube
 WORKDIR /kops-aws
